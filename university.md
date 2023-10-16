@@ -32,6 +32,7 @@
 - Id
 - Nome
 - Cognome
+- Telefono
 - Anno di nascita
 - Email
 - Note
@@ -71,3 +72,4 @@ Corso <manyToMany> Insegnanti
 Corso <oneToMany> Esami
 Corso <manyToMany> Studenti
 Studente <manyToMany> Esami
+Insegnante <manyToMany> Esami
